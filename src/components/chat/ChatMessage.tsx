@@ -44,7 +44,7 @@ export const ChatMessage = ({
           key={index}
           className={`${
             highlightedWords <= highlight_word_count
-              ? `text-${accentColor}-500`
+              ? `text-${accentColor}-800`
               : `text-${accentColor}-800`
           }`}
         >
